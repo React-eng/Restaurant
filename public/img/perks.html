@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('./img/p1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+.perks {
+    padding: 30px 40px;
+    text-align: center;
+}
+.inquiry{
+    background-color:#f44336;
+    padding: 10px 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+    <div id="myDIV" class="header">
+        <input class="buttonhome" type=button onClick="parent.location='index.html'"
+     value='Home Page'>
+      <h2 style="margin:5px">We Appreciate your efforts</h2>
+      
+    </div>
+
+
+
+<div class="perks">
+    <h1 style=" background-color:rgb(255, 255, 255);">You get 1 hour break during afternoon</h1>
+
+    <h2 style="background-color:rgb(253, 253, 253);">Ask the chef and take food to have in your lunch time</h2>
+
+    <h2 style="background-color:rgb(255, 255, 255);">We understand that you would spend atleast 12hours on your shift and hence you can also take home some Indian food. 
+</div>
+
+		<div class="inquiry">	
+                    <form action="https://formspree.io/f/mrgrkayq" method="post">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">E-mail/ Phone:</label>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="salary">Expected Salary:</label>
+    <input type="text" id="salary" name="salary"><br><br>
+    <label for="cars">Want to work with us?:</label>
+
+<select id="Join us">
+  <option value="Chef">Chef</option>
+  <option value="Kitchen Helper">Kitchen Helper</option>
+  <option value="Dishwashing">Diswashing</option>
+  <option value="Store-front worker">Store-front worker</option>
+  <option value="Servers">Servers</option>
+</select>
+    <input type="submit" id="options" value="Submit">
+
+  </form>
+</div>		
+
+
+</body>
+</html>
